@@ -1,0 +1,31 @@
+<div id="wrapper" class="active">
+        <!-- Sidebar -->
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+          <ul class="sidebar-nav" id="sidebar">
+            <li routerLink="/dashboard" routerLinkActive="active">
+              <a><img src="/assets/dash.png" alt=""/></a>
+            </li>
+            <li  routerLink="/reports" routerLinkActive="active">
+              <a><img src="/assets/report.png" alt=""/></a>
+            </li>
+            <li class="active" routerLink="/manageusers" routerLinkActive="active">
+              <a><img src="/assets/mu.png" alt=""/></a>
+            </li>
+            <li>
+              <a><img src="/assets/scanner.png" alt=""/></a>
+            </li>
+            <li>
+              <a><img src="/assets/pro.png" alt=""/></a>
+            </li>
+          </ul>
+        </div>
+      
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                    <router-outlet></router-outlet>
+            </div>        
+        </div>
+      </div>
+      

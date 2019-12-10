@@ -20,6 +20,8 @@ import { ReportComponent } from './report/report.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
